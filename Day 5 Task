@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Attributes and Feedback Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: rgb(179, 241, 247);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        input, textarea {
+            margin: 8px 0;
+            padding: 8px;
+        }
+
+        button {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>
+            Welcome! Please share your feedback with us.
+        </h2>
+
+        <br><br>
+        </div>
+        <div>
+
+            <label>
+                <b>Name:</b>
+            </label>
+            <br>
+            <input type="text" placeholder="Enter your name" title="Enter your full name">
+            <br>
+
+            <label>
+                <b>Email:</b>
+            </label>
+            <br>
+            <input type="email" placeholder="Enter your email" title="Enter your email address">
+            <br><br>
+
+            <label>
+                <b>How was your experience?</b>
+            </label>
+
+            <br>
+            <input type="radio" name="experience" value="good">Good
+
+            <input type="radio" name="experience" value="average">Average
+
+            <input type="radio" name="experience" value="bad">Bad
+            <br><br>
+
+            <label>
+                <b>What did you like?</b>
+            </label>
+            <br>
+            <input type="checkbox" value="design">Design
+
+            <input type="checkbox" value="content">Content
+
+            <input type="checkbox" value="speed">Speed
+            <br><br>
+
+            <label>
+                <b>Your Feedback:</b>
+            </label>
+            <br>
+            <textarea rows="5" cols="40" maxlength="100">Write your Feedback Here..</textarea>
+            <br>
+            <button type="submit">
+                Submit Feedback
+            </button>
+    </div>
+</body>
+</html>
