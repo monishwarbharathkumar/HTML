@@ -1,0 +1,20 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Different Elements</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading</h1>
+            <h2>Sub-Heading</h2>
+            <h3>Different-Heading</h3>
+            <h4>HEADING</h4>
+            <h5>Article</h5>
+            <h6>paragraph</h6>
+        </div>
+        <br/><br/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius pariatur saepe eligendi repudiandae id perferendis. Accusantium aliquam, dignissimos vitae nulla eos animi harum, nemo sequi modi, porro enim fuga qui!</p>
+        <br/><br/>
+        <p>My favorite <b>color</b> is <span style="color: blue;">blue</span>.</p>   
+    </body>
+</html>
