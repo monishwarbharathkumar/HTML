@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DAY 3 HTML</title>
+        <style>
+            body {
+                padding-top: 30px;
+            }
+
+            p {
+                text-align:center;
+                font-size:30px;
+            }
+
+            h1 {
+                color:rgb(86, 200, 181);
+                background-color: rgb(55, 6, 6);
+                text-align: center;
+            }
+
+            div {
+                text-align: center;
+                font-size:large;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 >TASK 3</h1>
+
+       <p><b>The primary difference between the 'b' and</b> "<strong>" tags in HTML is their semantic meaning: 'strong' indicates that the text has strong importance, seriousness, or urgency, <strong> "<b>" is used solely to draw visual attention </strong>to text without adding any extra importance.</p>
+
+        <br><br>
+
+        <p> <i>i</i> i means itallic font style which is used to decorate in html , <em>emphasis</em> (em) it's also gives the itallic font style but it isunderstand by screen reader which is used by physiclally challenged people</p>
+
+        <br><br>
+
+        <p>HTML- it is a tool used for creating websites <mark>CSS</mark>it is a tool <b>which is used to style the sheet </b>
+        <mark>by combining these two we can create a best loooking website</mark> <small>it is easy to study</small></p>
+
+        <br><br><br><br>
+
+        <div>
+             <a href="heading.html" download>download</a>
+             <br><br>
+             <a href="mailto:123@gmail.com">send email</a>
+             <br><br>
+             <a href="https.google.com " target="_blank">google</a>
+        </div>
+
+        <br>
+
+        <div>
+            <a href="dynamicpage.html">dynamic</a>
+            <br><br>
+            <a href="home.html">home</a>
+
+        </div>
+        
+        <br>
+
+        <div>
+            <img src="/images/bench.png" title="this is bench">
+            <br>
+            <img src="/images/bench.png" alt="this is bench">
+
+
+        </div>
+
+
+    
+    </body>
+</html>
