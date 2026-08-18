@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Random Page</title>
+        <style>
+            #heading
+            {
+                text-align: center;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="heading">Paragraph</h1>
+        <br/><br/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiis. Quasi incidunt, excepturi veritatis maiores temporibus quo atque voluptatem quam commodi laudantium natus. Voluptatibus, ab quasi assumenda dolorem repudiandae reiciendis.</p>
+    </body>
+</html>
