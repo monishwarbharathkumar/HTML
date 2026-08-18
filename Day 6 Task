@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>semantic tags</title>
+        <style>
+
+            html {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            body {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color:lightpink;
+                margin:0px;
+                padding:0px;
+            }
+
+            header div h1 {
+                letter-spacing: 2px;
+            }
+
+            header div {
+                height:50px;
+                display: flex;
+                justify-content: center;
+                text-align:center;
+                padding:20px;
+                background-color: brown;
+            }
+
+            header nav {
+                padding:5px;
+                background-color:lightcoral;
+            }
+
+            nav ul {
+                display: flex;
+                list-style-type: none;
+                gap:10px;
+                
+            }
+
+            li a {
+                text-decoration:none; /* it will remove the underline*/
+                color:black;
+                font-weight: bold;
+                letter-spacing: 1;
+            }
+
+            main {
+                padding: 5px 40px;
+                display:flex;
+                background-color:rgb(221, 83, 139);
+                height:75vh;
+                justify-content: space-between;
+
+            }
+
+            main section {
+                /*background-color:rgb(188, 84, 146);*/
+                margin-right:30px;
+            }
+
+            footer {
+
+                text-align:center
+            }
+
+            aside div{
+                padding: left 15px;
+                padding-bottom:30px;
+                background-color:lightsalmon;
+    
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+            <h1 >COMPANY</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="home.html">about</a></li>
+                    <li><a href="home.html">services</a></li>
+                    <li><a href="home.html">contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <p><H2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quae fugiat, tempora minima obcaecati voluptatum consequatur, eum commodi numquam fugit est quaerat deserunt, molestias iusto quibusdam ipsum consectetur ab consequuntur?</H2></p>
+                    <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolor voluptatem voluptas ad veritatis nisi laborum id fugit ipsum perspiciatis soluta molestias, iure enim magnam et pariatur tempore accusamus esse?</p>
+                    <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio unde odit autem, ex nisi, molestiae dolore dolor quis perferendis beatae aperiam sint ad error maiores doloribus vero vitae eius!</p>
+                    <br><br>
+                </article>
+            </section>
+
+        </main>
+        <footer>
+            © copyright 2026
+        </footer>
+
+    </body>
+</html>
