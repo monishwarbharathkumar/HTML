@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ea90e1;
+        }
+
+        form {
+            width:350px;
+            padding: 20px;
+            background-color: rgb(213, 246, 128);
+            border-radius: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }    
+
+        .submit{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <label for="name">Full Name:</label><br>
+        <input id="name" type="text" placeholder="Enter your full name" required>
+        <br>
+
+        <label for="email">Email:</label><br>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <br>
+
+        <label for="password">Password:</label><br>
+        <input id="password" type="password" placeholder="Enter your password" required>
+        <br>
+
+        <label for="age">Age:</label><br>
+        <input id="age" type="number" placeholder="Enter your age" required>
+        <br>
+
+        <legend>Gender</legend>
+        <div>
+            <input type="radio" name="gender">
+            <label>male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender">
+            <label>female</label>
+        </div>
+        <br>      
+        
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobbies">
+        <label>Coding</label>
+        <br>
+
+        <input type="checkbox" name="hobbies">
+        <label>Gaming</label>
+        <br>
+
+        <input type="checkbox" name="hobbies">
+        <label>Music</label>
+        <br>
+
+        <input type="checkbox" name="hobbies">
+        <label>Sports</label>
+        <br><br>
+
+        <div class="submit">
+        <input type="submit" value="Register">
+        <div>
+    </form>
+</body>
+</html>
