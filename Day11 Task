@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS Example</title>
+
+    <style>
+        .box {
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: lightblue;
+            border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+
+        p {
+            font-size: medium;
+        }
+
+        h1 {
+            font-size: 5vw;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Responsive Web Design</h1>
+
+    <br>
+
+    <div class="box">
+     BOX
+    </div>
+    <br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab odio dolore porro, eveniet, et consequatur repellat officia labore, quo deserunt iusto eum eaque nulla ratione explicabo incidunt laboriosam distinctio architecto.</p>
+
+</body>
+</html>
