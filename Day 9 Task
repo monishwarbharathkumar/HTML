@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            border: 2px solid grey;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            background-color: aqua;
+            font-size: 30px;
+        }
+        
+        div:hover{
+            /* box-shadow: horizontal offset */
+            box-shadow: 5px 5px 20px 1px;
+            cursor: pointer;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+        html, body{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        JUUU
+    </div>
+</body>
+</html>
